@@ -156,10 +156,13 @@ dim_territory ──── fact_sales ──── dim_product
 ## How to Run
 
 1. Restore AdventureWorks 2025 to SQL Server
-2. Run `sql/views.sql` to create all dimension and fact views
-3. Run `sql/rfm_segmentation.sql` to create `dim_customer_segment`
-4. Connect Power BI to your SQL Server instance and import the views
-5. Use `sql/validation_queries.sql` to verify dashboard KPI values
+2. Run `Adventure Works Final/Adventure Works 2025 final.sql` — 
+   this creates all views including dim_customer, dim_product, 
+   dim_territory, fact_sales, and dim_customer_segment
+3. Open `Adventure Works Final/Adventure Works Project final.pbix` 
+   in Power BI Desktop (free download from Microsoft)
+4. Update the data source connection to point to your SQL Server instance
+5. Refresh the data and both dashboard tabs will populate
 
 ---
 
