@@ -2,6 +2,9 @@
 
 A full-cycle analytics project built on Microsoft's AdventureWorks 2025 database, covering data modeling, SQL analysis, RFM customer segmentation, and executive Power BI dashboards.
 
+![Executive Overview](executive_overview.png)
+![Customer Overview](customer_overview.png)
+
 ---
 
 ## Project Overview
